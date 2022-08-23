@@ -9,6 +9,63 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
+
+    <div class="player p1 hide">
+        <p class="name">Charlie</p>
+        <div class="scoreboard">
+            <span class="indicator i11"></span>
+            <span class="indicator i12"></span>
+            <span class="indicator i13"></span>
+            <span class="indicator i14"></span>
+            <span class="indicator i15"></span>
+        </div>
+        <div class="symbol">
+            (X)
+        </div>
+    </div>
     
+    <span class="turnIndicator">
+        Bobby's Turn!
+    </span>
+
+    <div class="board">
+        <div class="boardSquare"></div>
+        <div class="boardSquare"></div>
+        <div class="boardSquare"></div>
+        <div class="boardSquare"></div>
+        <div class="boardSquare">X</div>
+        <div class="boardSquare">O</div>
+        <div class="boardSquare"></div>
+        <div class="boardSquare"></div>
+        <div class="boardSquare"></div>
+    </div>
+    
+    <div class="play buttons">PLAY</div>
+
+    <form action="" class="hide">
+        <div>
+            <label for="player1Name">player 1:</label>
+            <input required type="text" minlength="1" maxlength="20" id="player1Name" name="player1Name">
+        </div>
+        <div>
+            <label for="player2Name">player 2:</label>
+            <input required type="text" minlength="1" maxlength="20" id="player2Name" name="player2Name">
+        </div>
+        <button type='submit' class="buttons formButton">go</button>
+    </form>
+
+    <div class="player p2 hide">
+        <p class="name">Bobby</p>
+        <div class="scoreboard">
+            <div class="won indicator i21"></div>
+            <div class="won indicator i22"></div>
+            <div class="indicator i23"></div>
+            <div class="indicator i24"></div>
+            <div class="indicator i25"></div>
+        </div>
+        <div class="symbol">
+            (O)
+        </div>
+    </div>
 </body>
 </html>
