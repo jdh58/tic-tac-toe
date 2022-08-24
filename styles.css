@@ -162,6 +162,12 @@ form input {
     font-size: 4.8rem;
 }
 
+.play-again {
+    width: calc(550px / 2);
+    grid-row: 3 / -1;
+    grid-column: 2 / 3;
+}
+
 .play.buttons {
     grid-row: 3 / -1;
     grid-column: 2 / 3;
@@ -219,10 +225,19 @@ form input {
     box-shadow: 0 0 4px gold;
 }
 
+.bigWon {
+    background-color: rgb(104, 255, 119);
+    box-shadow: 0 0 4px rgb(61, 234, 61);
+}
+
 .symbol {
     font-size: 80px;
 }
 
 .hide {
     display: none;
+}
+
+.biggerDisplay {
+    font-size: 42px;
 }
